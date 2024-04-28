@@ -1,7 +1,7 @@
 body {
   max-width: 500px;
   margin: 0 auto;
-  background-color: #fafafa;
+  background-color: #4d105f;
   font-family: 'Exo 2', sans-serif;
   display: flex;
   justify-content: center;
@@ -10,35 +10,46 @@ body {
   height: 100vh;
 }
 
+h1 {
+  text-align: center;
+  color: rgb(189, 247, 231)
+}
+
 #player div {
   display: inline-block;
   width: 111px;
   height: 111px;
   line-height: 111px;
-  color: #ea422c;
+  background: #22b2bd;
+  color: white;
   margin: 4px 2px;
   text-decoration: none;
   font-size: 1.2em;
   font-weight: 300;
   text-align: center;
   position: relative;
-  border: 2px solid #222;
+  border: 2px solid rgb(189, 247, 231);
+  border-radius: 10px;
 }
 
 #player div:hover {
   background-color: black;
-  color: white;
 }
 
-#randomizer {
-  margin-top: 30px;
+button {
   padding: 20px;
-  background-color: rgb(204, 204, 204);
-  border: 2px solid black;
+  background-color: rgb(189, 247, 231);
+  border: 2px solid #22b2bd;
   font-family: 'Exo 2', sans-serif;
+  border-radius: 10px;
+  color: #4d105f;
+  font-size: 1.1em;
+  width: 150px;
+  margin: 30px 10px;
 }
 
-#randomizer:hover {
+button:hover {
   background-color: black;
   color: white;
 }
+
